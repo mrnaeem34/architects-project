@@ -15,6 +15,7 @@
 .main{
     max-width: 1440px;
     margin: 0 auto;
+
 }
 main > section{
     margin-top: 130px;
@@ -105,6 +106,27 @@ color: #727272;
 #design{
     color: #FF900E;
 }
+/* features section related style */
+.feature{
+    gap: 100px;
+}
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-card{
+     padding: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+ .feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+ }
 /* some fact releted style */
 .facts-container{
     display: grid;
